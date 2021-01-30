@@ -1,0 +1,28 @@
+#navbar ul{
+    list-style: none ;
+    margin: 0px ;
+    padding: 0px ;
+}
+#navbar ul a li{
+    float: left ;
+    padding-left: 20px ;
+    padding-right: 20px ;
+color: white ;
+font-size: 45px ;
+border-right: 2px solid white ;
+border-left: 2p solid white ;
+transition: all 0.5s ;
+}
+#navbar{
+   background-color: darkblue ;
+   height: 60px ;
+   line-height: 50px
+ opacity : 0.5 ;
+}
+#navbar ul a li:hover{
+    background-color: blue ;
+font-size: 50px ;
+}
+#navbar:hover{
+    opacity: 1 ;
+}
