@@ -1,0 +1,174 @@
+<html>
+    <head>
+<title> Food </title>
+<link href="Navigation bar styling.css" rel="stylesheet">
+<link href="food_styling.css" rel="stylesheet">
+<style>
+    .about , .menu , .contact  {
+        min-height: 400px ;
+        background-color: black ;
+    }
+    *{
+        margin: 0px ;
+        padding: 0px ;
+    }
+    .first{
+        height: 90% ;
+        background-image: url(burger.jpeg);
+        background-size: 100% 100% ;
+        background-repeat: no-repeat ;
+    }
+    .second{
+        height: 400px  ;
+        background-image: url(Restaurant.jpeg);
+        background-size: 100% 100% ;
+        background-repeat: no-repeat ;
+    }
+    .third{
+        height: 400px  ;
+        background-image: url(food.jpeg);
+        background-size: 100% 100% ;
+        background-repeat: no-repeat ;
+    }
+    .fourth{
+        height: 400px  ;
+        background-image: url(roling.jpeg);
+        background-size: 100% 100% ;
+        background-repeat: no-repeat ;
+    }
+    .footer{
+                height: 200px ;
+                border: blue 3px solid ;
+                background-color: black ;
+            }
+            .footer .icon{
+              height: 150px ;
+              border: orange 2px solid ;
+            }
+            .footer .text{
+             height: 50px ;
+             border: green 2px solid ;
+             color: white ;
+            }
+            .icons{
+           height: 100px ;
+        }
+        .left img{
+            width: 400px;
+            height: 400px ;
+        }
+        .left img{
+            width: 400px ;
+            height: 400px ;
+        }
+        form{
+            color: white ;
+            font-size: large ;
+        }
+        fieldset{
+            font-size: 50px ;
+            text-align: center ;
+            color: white ;
+        }
+        input{
+            width: 70% ;
+            height: 50px ;
+        }
+        select{
+            width: 70% ;
+            height: 50px ;
+        }
+        body{
+            color: white ;
+        }
+        .contact button:hover, .contact input:hover, textarea:hover, .contact input:focus, textarea:focus{
+            background-color: rgba(198, 165, 165, 0.829 );
+        }
+</style>
+
+    </head>
+    <body>
+
+<div class="first" id="first">
+    <div   id="navbar"> 
+        <ul> 
+         <a href="#first"> <li> Home </li> </a>  
+         <a href="#about">  <li> About us </li> </a> 
+            <a href="#contact">  <li> Contact us  </li> </a> 
+                
+                </ul> 
+                </div> 
+
+                <div class="content">
+                    <h1> Welcome!!! </h1>
+                    <a href="#menu">Lets see the menu </a>
+                </div>
+       
+</div>
+
+<div class="about" id="about">
+    <img src="chef.jpg" width="20%" height="30%" style="border-radius: 50%; margin:10px 35px ;  float: left; ">
+        <p>
+            We sell one of the best pizza's and we are rated 5+ . What do you think 
+        </p>
+</div>
+<div class="second"></div>
+
+<div class="menu" id="menu">
+<h1> Our Menu </h1>
+<div class="item">
+    <h1 class="Heading"> Magherita pizza </h1>
+    <p class="p">  Fresh tomatoes, cheese, pizza sauce and garlic</p>
+    <img src="magherita-pizza.jpg">
+    <button class="button"> $15.50 </button>
+</div>
+<div class="item">
+    <h1 class="Heading"> Cheese pizza </h1>
+    <p class="p">   cheese  and garlic </p>
+    <img src="cheese-pizza.jpg">
+    <button class="button"> $10.50 </button>
+</div>
+<div class="item">
+    <h1 class="Heading"> Sunday special </h1>
+    <p class="p">  Fresh tomatoes, cheese, Ketchup and garlic</p>
+    <img src="Sunday-pizza.jpg">
+    <button class="button"> $20.50 </button>
+</div>
+<div class="item">
+    <h1 class="Heading"> Republic day special </h1>
+    <p class="p">  Mushroom,  cheese, Ketchup and garlic</p>
+    <img src="Republic-pizza.jpg">
+    <button class="button"> $20.50 </button>
+</div>
+
+
+
+</div>
+<div class="third"></div>
+<div class="contact" id="contact">
+    <fieldset>
+    <form action="Succesfully.html" target="_blank" method="post"> 
+        <input type="text" name="Name" placeholder="Full name"> <br>
+         <input type="email" name="email" placeholder="E-mail" ><br>
+        <input type="number" placeholder="Age">
+        <br>  
+        Country of origin <select> 
+            <option> none  </option>
+              <option  value="IND"> India </option>
+              <option value="UAE"> United Arab Emirates </option>
+              <option value="USA"> United States of America </option>
+              <option  value="UK"> United Kingdom </option>
+              <option value="AUS"> Australia </option>
+          </select> <br>
+          <input type="text" name="Name" Other placeholder="Other thoughts/comments" > <br>
+          <input type="submit"    value="send message">
+          <!-- <input type="button"  value="Login"> --> </form>
+        </fieldset>
+</div>
+<div class="fourth"></div>
+<div class="footer">
+    <div> <img src="fa.png" class="icons"> <img src="twitter icon.jpg" class="icons"> <img src="instagram icon.jpg" class="icons"> </div>
+    <div class="text"> @foodz.com    </div>
+</div>
+    </body>
+</html>
